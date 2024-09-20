@@ -27,7 +27,7 @@ Key features:
 - Download completed job results
 - Secure API authentication using environment variables
 
-For detailed information on setup and usage, refer to the [LipSync tool README](lipsync/README.md).
+For detailed information on setup and usage, refer to the [LipSync tool README](lipsync_job/README.md).
 
 ## Getting Started
 
@@ -86,5 +86,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-If you have any questions or feedback, please open an issue in this repository.
+If you have any questions or feedback, please open an issue in this repository or contact us at [gaimin.ai](https://www.gaimin.ai).
 
