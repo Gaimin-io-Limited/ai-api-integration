@@ -55,7 +55,7 @@ python generate_image.py <api_key> <prompt> [--options <options_json>]
 	•	--options: A JSON string specifying additional generation parameters. If not provided, default values are used.
 
 
-## Example
+## Example Usage (Python Script)
 
 ```
 python generate_image.py your_api_key_here "A cat holding a sign that says hello world" --options '{"guidance_scale": "0.", "height": 512, "width": 512, "num_inference_steps": 10, "max_sequence_length": 128}'
@@ -74,3 +74,24 @@ If --options is not specified, the following defaults are used:
     "max_sequence_length": 256
 }
 ```
+
+## Example Usage (cURL)
+
+Alternatively, you can use curl to make a request directly to the Gaimin.ai API:
+
+```
+curl --location 'https://api.cloud.gaimin.io/ai/text-2-image/generate' \
+--header 'Content-Type: application/json' \
+--header 'x-api-key: ••••••' \
+--data '{
+    "prompt": "A cat holding a sign that says hello world",
+    "options": {
+        "guidance_scale": "0.",
+        "height": 768,
+        "width": 1360,
+        "num_inference_steps": 8,
+        "max_sequence_length": 256
+    }
+}'
+```
+Replace your_api_key_here with your actual API key in both the Python and curl examples.
