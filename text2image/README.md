@@ -82,7 +82,7 @@ Alternatively, you can use curl to make a request directly to the Gaimin.ai API:
 ```
 curl --location 'https://api.cloud.gaimin.io/ai/text-2-image/generate' \
 --header 'Content-Type: application/json' \
---header 'x-api-key: ••••••' \
+--header 'x-api-key: your_api_key_here' \
 --data '{
     "prompt": "A cat holding a sign that says hello world",
     "options": {
