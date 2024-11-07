@@ -29,6 +29,13 @@ Key features:
 
 For detailed information on setup and usage, refer to the [LipSync tool README](lipsync_job/README.md).
 
+### 2. Text2Image Tool
+
+Located in the `text2image/` directory, this tool automates the process of requesting image generation based on prompt and options 
+
+
+For detailed information on setup and usage, refer to the [Text2Image tool README](text2image/README.md).
+
 ## Getting Started
 
 1. Clone this repository:
